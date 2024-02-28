@@ -8,10 +8,10 @@ public class LibraryLogin {
     private static String passwordAdmin = "rifkyrofiq";
 
     public static void main(String[] args) {
-        jalankanProgram();
+        startProgram();
     }
 
-    public static void jalankanProgram() {
+    public static void startProgram() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("===== Welcome to the Library Login System! ======");
